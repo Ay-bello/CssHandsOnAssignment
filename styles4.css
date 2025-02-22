@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6fb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Left Section */
+.left-section {
+    width: 40%;
+    padding: 30px;
+    background: #eaf4fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Right Section */
+.right-section {
+    width: 60%;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background: #00a8ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.terms a {
+    color: #00a8ff;
+    text-decoration: none;
+}
+
+/* ====== Mobile Responsive Design ====== */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+}

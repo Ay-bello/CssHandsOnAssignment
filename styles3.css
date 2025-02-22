@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #3d2aa1, #6c4fd2);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    position: relative;
+    text-align: center;
+}
+
+/* Badge */
+.badge {
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    font-size: 12px;
+}
+
+/* Watch Image */
+.watch-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Text Content */
+.text-content {
+    padding: 10px;
+}
+
+/* Series Text */
+.series {
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+}

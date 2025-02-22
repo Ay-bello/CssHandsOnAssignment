@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.account-btn {
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout Form */
+.checkout-form {
+    width: 60%;
+    padding-right: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.form-group {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 12px;
+    background: #228B22;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-text {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.support-text a {
+    color: #228B22;
+    text-decoration: none;
+}
+
+/* Pricing Box */
+.pricing-box {
+    width: 40%;
+    background: #1a3b7a;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.pricing-box h3 {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.switch-plan {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.switch-plan a {
+    color: #00a8ff;
+}
+
+.testimonial {
+    font-size: 14px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.customer-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .checkout-form, .pricing-box {
+        width: 100%;
+    }
+
+    .pricing-box {
+        margin-top: 20px;
+    }
+}

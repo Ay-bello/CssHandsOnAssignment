@@ -1,0 +1,102 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2d;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    max-width: 900px;
+}
+
+/* Top section with text and profile images */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Text content */
+.text-content {
+    max-width: 70%;
+}
+
+/* Highlighted text */
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+/* Profile images */
+.profile-images {
+    display: flex;
+    align-items: center;
+}
+
+.profile-images img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: 2px solid white;
+}
+
+/* Divider */
+.divider {
+    height: 100px; /* Adjust height as needed */
+    background: #333; /* Dark section */
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Card */
+.card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Card header */
+.card-header {
+    background: #ffcc00;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .top-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-images {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}
